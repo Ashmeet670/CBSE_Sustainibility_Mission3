@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+* {
+    font-family: 'Comfortaa', cursive;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+
+.gradient-bg {
+    background: rgb(0, 180, 187);
+    background: linear-gradient(10deg, rgb(0, 160, 175) 20%, rgb(0, 78, 79) 70%);
+}
+
+.gradient-bg2 {
+    background: rgb(0, 29, 46);
+    background: linear-gradient(165deg, rgb(0, 27, 55) 5%, rgb(0, 78, 79) 65%);
+}
+
+
+.glass {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+
+.navigationBar {
+    backdrop-filter: blur(10px);
+}
+
+.navLink {
+    transition: all .15s ease-in-out;
+}
+
+.navLink:hover {
+    transform: scale(1.15);
+}
+
+
+
+.box-4 {
+    width: 4em;
+    height: 4em;
+}
+
+.box-5 {
+    width: 5em;
+    height: 5em;
+}
+
+.box-6 {
+    width: 6em;
+    height: 6em;
+}
+
+.box-7 {
+    width: 7em;
+    height: 7em;
+}
+
+.box-8 {
+    width: 8em;
+    height: 8em;
+}
+
+.pageBG {
+    background-color: #00047a;
+
+}
+
+.stats {
+    background-color: rgb(0, 160, 175);
+}
+
+
+
+.footer {
+    background-color: #003c7d;
+}
